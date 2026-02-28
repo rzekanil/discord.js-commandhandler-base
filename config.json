@@ -1,0 +1,25 @@
+{
+  "bot": {
+    "token": "PUT_DISCORD_BOT_TOKEN_HERE",
+    "clientId": "PUT_DISCORD_CLIENT_ID_HERE",
+    "owners": [
+      "PUT_OWNER_USER_ID_HERE"
+    ],
+    "syncCommandsOnStartup": true,
+    "commandRegistration": {
+      "mode": "guild",
+      "guildId": "PUT_TEST_GUILD_ID_HERE"
+    }
+  },
+  "database": {
+    "host": "PUT_DB_HOST_HERE",
+    "port": 5432,
+    "user": "PUT_DB_USER_HERE",
+    "password": "PUT_DB_PASSWORD_HERE",
+    "database": "PUT_DB_NAME_HERE",
+    "ssl": false,
+    "max": 10,
+    "idleTimeoutMillis": 30000,
+    "connectionTimeoutMillis": 5000
+  }
+}
