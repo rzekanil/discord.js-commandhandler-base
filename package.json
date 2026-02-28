@@ -2,7 +2,7 @@
   "name": "discord-bot",
   "version": "1.0.0",
   "private": true,
-  "description": "Discord bot do obslugi komend slash z integracja PostgreSQL.",
+  "description": "Discord bot",
   "type": "module",
   "engines": {
     "node": ">=20.0.0"
